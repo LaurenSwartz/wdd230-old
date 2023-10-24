@@ -69,6 +69,10 @@ h1 {
 
 
 }
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
 
 
 nav {
@@ -162,11 +166,14 @@ main {
     background-color: aliceblue;
 }
 
-
 .hero img {
 	width: 100%;
 	height: auto;
 	
+}
+.join {
+	margin: 10px auto;
+	position: relative;
 }
 div.logo {
     margin: 0;
@@ -288,7 +295,7 @@ textarea {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: #FDE2FF;
 	text-align: center;
 }
 
@@ -353,7 +360,7 @@ section {
 }
 
 .direct-list section:nth-child(even) {
-	background-color: #bed;
+	background-color: #FDE2FF;
 }
 
 section h3 {
@@ -376,6 +383,8 @@ img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
+
+
 
   
 

@@ -67,7 +67,7 @@
         <ul class="navigation">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
@@ -76,16 +76,23 @@
             <div class="hero">
                 <picture>
                     <source media="(max-width: 500px)" srcset="images/hero-small.webp">
-                    <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+                    <source media="(max-width: 750px)" srcset="images/hero-medium.webp">
+                    <source media="(max-width: 1000px)" srcset="images/hero-large.webp">
                     <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
                 </picture>
-                <section class="join"></section>
+                <section class="join">Join</section>
             </div>
             <div class="grid-item item2">Event</div>
-            <div class="grid-item item3">Weather</div>  
-            <div class="grid-item item4">Spot 1</div>
-            <div class="grid-item item5">Spot 2</div>
-             <div class="grid-item item6">Spot 3</div>
+            <div class="grid-item item3">
+            <h3 class="card">Information</h3>
+            <div id="weather">
+            <figure>
+            <p><img id="weather-icon" src="" alt=""><span id="current-temp"></span></p>
+            <figcaption></figcaption>
+            </figure>
+            </div>
+            </div>  
+            <div class="spotlight"></div>
           </div>
     </main>
     <footer>
@@ -97,7 +104,8 @@
         <div id="lastModified"></div>
     </footer>
 <script src="scripts/getDates.js"></script> 
-<script src="scripts/hamburger.js"></script>  
+<script src="scripts/hamburger.js"></script> 
+<script src="scripts/weather.js" ></script>
 
 
 </body>

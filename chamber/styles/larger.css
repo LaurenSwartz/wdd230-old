@@ -27,6 +27,7 @@
     }
   
     main {
+      display: grid;
       margin: 0 auto;
       padding: 0.5rem;
       max-width: 700px;
@@ -45,7 +46,7 @@
       border: 1px solid #bbb;
       text-align: center;
       padding: 10px;
-      font-size: 20px;
+      font-size: 10px;
     }
     .grid {
       display: grid;
@@ -134,15 +135,12 @@
       grid-column: 2 / span 2;
       grid-row: 1 / span 4;
     }
-    img { 
-      width: 100%;
-      background-color: #000;
-    }
-    .hero img {
-      width: 100%;
-      height: auto;
-      
-    }
+    .hero {
+      grid-column: 1/ span 2;
+
+  }
+   
+ 
  
 
 
